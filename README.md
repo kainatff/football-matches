@@ -28,20 +28,11 @@ The Football Match Outcome Predictor is a machine learning-based system designed
  Usage
 1. Scrape match data:
    ```sh
-   python scrape_data.py
+   python scraping.py
    ```
-2. Train the machine learning model:
+2. Predict match outcomes:
    ```sh
-   python train_model.py
+   python predictor.py
    ```
-3. Predict match outcomes:
-   ```sh
-   python predict.py
-   ```
-
- Evaluation Metrics
-- Accuracy: Measures the correctness of predictions.
-- Precision & Recall: Evaluates model reliability.
-- F1-score: Balances precision and recall for performance assessment.
 
 
